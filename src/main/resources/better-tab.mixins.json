@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "tab.bettertab.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayerListHudMixin",
+    "MouseMixin",
+    "PlayerListHudAccess"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
